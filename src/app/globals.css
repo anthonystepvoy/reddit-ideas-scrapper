@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #111111;
+  --content-bg: #1A1A1A;
+  --primary: #F5F5F5;
+  --secondary: #888888;
+  --accent: #0085FF;
 }
 
 @theme inline {
@@ -19,8 +23,72 @@
   }
 }
 
-body {
+html, body {
+  font-family: 'Inter', Arial, sans-serif;
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary);
+  min-height: 100vh;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+
+p, span, li, label {
+  color: var(--secondary);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #3399FF;
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 9999px;
+  padding: 0.75rem 2.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px 0 rgba(0,133,255,0.10);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.btn-accent:hover {
+  background: #3399FF;
+  box-shadow: 0 4px 16px 0 rgba(0,133,255,0.18);
+  transform: translateY(-1px) scale(1.03);
+}
+
+.feature-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.social-proof-logos {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(1) brightness(1.5);
+  opacity: 0.7;
+  margin-top: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #222;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
 }
