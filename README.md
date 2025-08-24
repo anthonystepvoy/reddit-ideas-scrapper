@@ -13,6 +13,12 @@ This project implements the "Pragmatic Builder's Action Plan" - a strategic appr
 - **Enrichment Pipeline**: AI-powered idea development
 - **Remix Framework**: Strategic differentiation and innovation
 
+<div class="align-center">
+- <img width="1391" height="937" alt="image" src="https://github.com/user-attachments/assets/16ec8d9f-3d41-4973-93d0-5f0dc3e864fb" />
+
+</div>
+
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 15 with React 19
