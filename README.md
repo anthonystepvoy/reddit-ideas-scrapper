@@ -14,7 +14,12 @@ This project implements the "Pragmatic Builder's Action Plan" - a strategic appr
 - **Remix Framework**: Strategic differentiation and innovation
 
 <div align="center">
-- <img width="1391" height="937" alt="image" src="https://github.com/user-attachments/assets/16ec8d9f-3d41-4973-93d0-5f0dc3e864fb" />
+
+<img width="1210" height="859" alt="image" src="https://github.com/user-attachments/assets/40c66a2f-248c-4ca1-a816-2696dedefc3a" />
+
+
+<img width="1382" height="907" alt="image" src="https://github.com/user-attachments/assets/47221711-43ec-4d49-9cbd-ff50a56eb44b" />
+
 
 </div>
 
