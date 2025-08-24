@@ -20,7 +20,6 @@ This project implements the "Pragmatic Builder's Action Plan" - a strategic appr
 
 <img width="1382" height="907" alt="image" src="https://github.com/user-attachments/assets/47221711-43ec-4d49-9cbd-ff50a56eb44b" />
 
-
 </div>
 
 
