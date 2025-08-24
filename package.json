@@ -1,12 +1,31 @@
 {
-  "name": "idea-platform",
-  "version": "0.1.0",
-  "private": true,
+  "name": "reddit-ideas-scrapper",
+  "version": "1.0.0",
+  "description": "A comprehensive intelligence platform for capturing, analyzing, and developing startup ideas using systematic data collection and AI-powered enrichment",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonystepvoy/reddit-ideas-scrapper.git"
+  },
+  "keywords": [
+    "startup-ideas",
+    "reddit-scraping",
+    "ai-analysis",
+    "entrepreneurship",
+    "idea-generation",
+    "nextjs",
+    "python",
+    "airtable"
+  ],
+  "author": "Anthony Stepvoy",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.23.1",
@@ -26,7 +45,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
+    "prettier": "^3.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }

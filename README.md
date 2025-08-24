@@ -1,4 +1,4 @@
-# Idea Platform
+# Reddit Ideas Scrapper 🚀
 
 > **Note**: This project was originally built for personal use and is now being shared publicly to contribute to the developer community.
 
@@ -25,16 +25,16 @@ This project implements the "Pragmatic Builder's Action Plan" - a strategic appr
 ## 📁 Project Structure
 
 ```
-idea-platform/
-├── src/
-│   ├── app/                 # Next.js app router
-│   ├── components/          # React components
-│   └── utils/              # Utility functions
-├── public/                 # Static assets
-├── airtable_manager.py     # Airtable database interactions
-├── reddit_scanner.py       # Reddit idea mining
-├── requirements.txt        # Python dependencies
-└── package.json           # Node.js dependencies
+reddit-ideas-scrapper/
+├── src/                    # Next.js app router
+│   ├── app/               # Next.js app router
+│   ├── components/        # React components
+│   └── utils/            # Utility functions
+├── public/                # Static assets
+├── airtable_manager.py    # Airtable database interactions
+├── reddit_scanner.py      # Reddit idea mining
+├── requirements.txt       # Python dependencies
+└── package.json          # Node.js dependencies
 ```
 
 ## 🚀 Quick Start
@@ -43,8 +43,8 @@ idea-platform/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd idea-platform
+   git clone https://github.com/anthonystepvoy/reddit-ideas-scrapper.git
+   cd reddit-ideas-scrapper
    ```
 
 2. **Install Node.js dependencies:**
